@@ -89,7 +89,7 @@ impl SingleOffer {
 
         if buy_price == 0 || sell_price == 0 {
             panic!("Price cannot be 0");
-        }
+          }
 
           let mut offer = load_offer(&e);
           offer.Seller.require_auth();
